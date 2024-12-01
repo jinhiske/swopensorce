@@ -30,13 +30,13 @@ void drawMaze() {
                 printf("P "); // 플레이어
             }
             else if (maze[y][x] == 1) {
-                printf("# "); // 벽
+                printf("- "); // 벽
             }
             else if (maze[y][x] == 2) {
                 printf("E "); // 출구
             }
             else {
-                printf(". "); // 길
+                printf("  "); // 길
             }
         }
         printf("\n");
